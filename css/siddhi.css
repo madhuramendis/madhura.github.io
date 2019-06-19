@@ -295,12 +295,12 @@ a.cDistribution:hover {
 
 
 .cDistribution.cJava {
-    background-image: url(/siddhi-theme-images/java-logo.png);
+    background-image: url(../siddhi-theme-images/java-logo.png);
 }
 
 
 .cDistribution.cPython {
-    background-image: url(/siddhi-theme-images/python-logo.png);
+    background-image: url(../siddhi-theme-images/python-logo.png);
 }
 
 
