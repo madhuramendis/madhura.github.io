@@ -315,3 +315,17 @@ table.DistributionsTable td {
 /* .md-icon.md-search__icon {
     display: none;
 } */
+
+
+.cBenefits {
+    background-color: #fff;
+    padding: 40px 30px 30px 30px;
+    display: inline-block;
+    min-height: 350px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.cBenefits img {
+    width: 100px;
+}
