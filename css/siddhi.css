@@ -94,6 +94,18 @@ margin-bottom: 0;
 padding-bottom: 0;
 }
 
+.cIntroRow h1 {
+    font-size: 1px;
+    color: #ffff;
+    padding: 0;
+    margin: 0;
+}
+
+
+.cPageLogo img {
+ height: 60px;
+}
+
 .cIntroRow  h2 {
     margin-top: 0;
     margin-top: 0;
@@ -106,10 +118,21 @@ margin-bottom: 30px;
     margin-bottom: 0;
 
 }
+
+
+.row.cPageHeader {
+padding-top: 130px;
+padding-bottom: 0;
+}
+
+
+
 /* widget */
 
 .cWdgetContainer {
-    border: 30px solid #dedede;
+    border: 30px solid #e5eaea;
+
+    box-shadow: -5px 6px 8px rgba(0, 0, 0, 0.2);
     display: inline-block;
     width: 100%;
     background-color: #dedede;
@@ -117,8 +140,12 @@ margin-bottom: 30px;
 }
 
 .row.cIntroRow {
-    padding-top: 100px;
+    padding-top: 0px;
     padding-bottom: 100px;
+    background-image: url(../siddhi-theme-images/siddhi-w-bg.jpg);
+    background-position: bottom;
+    background-size: 100%;
+    /* padding-bottom: 0px; */
 }
 
 
@@ -147,6 +174,50 @@ margin-top: 20px;
 background-color: #02aaad;
 
 }
+
+
+/* Scroll */
+
+.navbar.navbar-default.md-header-nav.md-grid {
+    background-color: transparent;
+}
+
+.md-header .navbar-brand img {
+ /* display: none; */
+ opacity: 0;
+ transition: all .5s ease 0s;
+}
+
+.md-header.cScrollMenu .navbar-brand img {
+    width: 100px;
+    margin-top: 7px;
+}
+
+.md-header {
+    background-color: transparent;
+}
+
+.md-header.cScrollMenu {
+    background-color: #00aaac !important;
+    height: auto;
+}
+
+
+.md-header.cScrollMenu .navbar-brand img {
+ opacity: 1;
+ transition: all .5s ease 0s;
+}
+
+
+.md-header.cScrollMenu  .navbar-default .navbar-nav > li > a {
+    color: #fff !important; 
+}
+
+.cPageLogo.cScrollMenu img {
+    opacity: 0;
+    transition: all .5s ease 0s;
+}
+
 
 
 .md-search__input + .md-search__icon {
@@ -248,7 +319,7 @@ width: 100%;
 padding: 10px 20px;
 
 
-border: 1px solid #e9e9e9;
+border: 2px solid #e9e9e9;
 
 margin-right: 10px;
 
@@ -267,6 +338,7 @@ line-height: 30px;
 color: #02aaad !important;
 font-weight: 800;
 text-decoration: none;
+background-color: #fff;
 
 }
 
@@ -321,11 +393,75 @@ table.DistributionsTable td {
     background-color: #fff;
     padding: 40px 30px 30px 30px;
     display: inline-block;
-    min-height: 350px;
+    min-height: 340px;
     margin-bottom: 30px;
-    text-align: center;
+    text-align: left;
 }
 
 .cBenefits img {
-    width: 100px;
+   
+}
+
+.cBenefitsHeader {
+    display: inline-block;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #dedede;
+    width: 100%;
+}
+
+.cBenefitsHeader img {
+    width: 60px;
+    display: inline-block;
+    float: left;
+    margin-right: 20px;
+}
+
+.cBenefitsHeader h3 {
+    margin: 0;
+    display: inline-block;
+    float: left;
+    line-height: 60px;
+    font-weight: 600;
+    
+}
+
+.cUseCases h3 {
+    border-bottom: 1px solid #00aaac;
+    margin-top: 0;
+    display: inline-block;
+}
+
+.cUseCases ul {
+    margin-left: 0;
+}
+
+.cUseCases ul li {
+    margin-bottom: 0px;
+    margin-top: 0px;
+    list-style: none;
+    border-bottom: 1px solid #e9e9e9;
+    margin-left: 0;
+    padding: 10px 0;
+
+}
+
+.cUseCases ul li:last-child {
+ border: none;
+
+}
+
+.cUseCasesContainer {
+    /* background-color: #e9e9e9; */
+    display: inline-block;
+    /* padding: 30px; */
+    padding: 40px 60px 40px 0;
+    margin-bottom: 30px;
+}
+
+.cUseCasesContainer.cBigBox {
+/* min-height: 200px; */
+}
+
+.cUseCasesContainer.cSmallBox {
+    
 }
